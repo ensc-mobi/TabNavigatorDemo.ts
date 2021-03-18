@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Text, View, Button } from "react-native";
-import { SettingsScreenProps } from "./Types";
+import { SettingsScreenProps } from "../navigation/app-stacks";
 
 export default class SettingsScreen extends Component<SettingsScreenProps, {}> {
   render() {

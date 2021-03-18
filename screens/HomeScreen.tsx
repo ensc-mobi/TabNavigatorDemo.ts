@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Text, View, Button } from "react-native";
-import { HomeScreenProps } from "./Types";
+import { HomeScreenProps } from "../navigation/app-stacks";
 
 export default class HomeScreen extends Component<HomeScreenProps, {}> {
   render() {
